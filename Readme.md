@@ -67,7 +67,3 @@ Let’s make this a fun and interactive way to sharpen our JavaScript skills! If
 Happy coding! 😊
 
 In TG [https://t.me/+905QYMp_cLk0YmE8](https://t.me/+905QYMp_cLk0YmE8)
-
-```plaintext
-Feel free to adjust the content based on your preferences! Let me know if you'd like help setting up the folders or adding example challenges/projects. 
-```
