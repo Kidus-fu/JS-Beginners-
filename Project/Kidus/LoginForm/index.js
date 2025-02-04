@@ -18,6 +18,6 @@ const LoginHandel = (e) => {
     }
 
     // Log the JSON-like object
-    console.log(JSON.stringify(formDataObject, null, 2));
+    console.log(JSON.stringify(formDataObject, null, 4));
 }
 
