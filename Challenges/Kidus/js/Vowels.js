@@ -43,6 +43,6 @@ function countVowelsBonus(str){
 
 // Example usage:
 
-console.log(countVowelsBonus("Hello World")); // Output: { a: 1, e: 1, i: 1, o: 3, u: 0 }
+console.log(countVowelsBonus("Hello World")); // Output: { a: 0, e: 1, i: 0, o: 2, u: 0 }
 
-console.log(countVowelsBonus("JavaScript")); // Output: { a: 1, e: 1, i: 1, o: 2, u: 1 }
+console.log(countVowelsBonus("JavaScript")); // Output: { a: 2, e: 0, i: 1, o: 0, u: 0 }
