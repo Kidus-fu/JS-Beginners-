@@ -14,9 +14,7 @@ function reverseString(inputString) {
     
     return reversedString;
 }
-// let userinput = prompt("yout string: ")
 
-//console.log(reverseString(userinput));
 //Test
 console.log(reverseString("hello"));           // Output: "olleh"
 console.log(reverseString("hello world"));    // Output: "dlrowolleh"
