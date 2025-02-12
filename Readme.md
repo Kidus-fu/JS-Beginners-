@@ -26,7 +26,7 @@ This repository is designed to:
 ## 👨‍💻 How to Contribute
 
 ```plaintext
-git clone https://github.com/your-username/repository-name.git
+git clone https://github.com/Kidus-fu/JS-Beginners-.git
 ```
 
 **Add Your Work:**
@@ -39,10 +39,6 @@ git clone https://github.com/your-username/repository-name.git
 **Submit a Pull Request** (PR) if working on a shared feature or project.
 
 ## 📂 Repository Structure
-
-plaintext
-
-CopyEdit
 
 ```plaintext
 ├── challenges/  
