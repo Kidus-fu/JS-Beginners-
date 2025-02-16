@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 flex items-center justify-center min-h-screen p-6">
+
+    <div class="relative w-full max-w-2xl">
+        <!-- Image Card -->
+        <div class="overflow-hidden rounded-lg shadow-lg h-96 relative bg-black">
+            <div id="slider" class="flex w-full h-full">
+                <img ondragstart="stopdrag(event)" src="https://th.bing.com/th/id/OIP.U_VJuupQohwnzXcKMztqWgHaEo?rs=1&pid=ImgDetMain" class="w-full h-full object-cover" alt="Image 1">
+                <img ondragstart="stopdrag(event)" src="https://th.bing.com/th/id/OIP.XgAeEDRTW7JysDuoEG6xZQHaE7?w=626&h=417&rs=1&pid=ImgDetMain" class="w-full h-full object-cover" alt="Image 2">
+                <img ondragstart="stopdrag(event)" src="https://img.freepik.com/premium-photo/river-mountains-with-blue-lake-mountain-background_865967-12816.jpg" class="w-full h-full object-cover" alt="Image 3">
+            </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <button id="prev" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full hover:bg-gray-600 transition">
+            ⬅️
+        </button>
+        <button id="next" class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full hover:bg-gray-600 transition">
+            ➡️
+        </button>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
